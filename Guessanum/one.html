@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NumGame</title>
+</head>
+<body>
+    <div>
+        <p>Try and Guess a number between 1 and 100</p> 
+        <p>You have 10 attempts to guess the right number</p>
+      <form action="form">
+        <label for="guessfield" id="guess">Guess a number </label>
+        <input type="text" id="guessfield" class="guessfield">
+        <input type="submit" id="subt" value="submit guess" class="guessSubmit">
+    </form>
+    <div class="resultparas">
+        <p>Previous Guesses : <span class="guesses"></span></p>
+        <p>Guesses Remainig: <span class="lastresult">10</span></p>
+        <p class="lowOrhigh"></p>
+    </div>
+    </div>
+    <script src="guess.js"></script>
+</body>
+</html>
